@@ -1,0 +1,112 @@
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  /* color: #9fd3c7; */
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #9fd3c7;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  /* border-radius: 20%; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
+
+
+
+.font-in {
+  font-size: 1rem;
+  padding: 0.7rem;
+  color: white;
+}
+
+.brand-font-in {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.card-sty-img {
+  /* width: 300px; */
+  max-height: 275px;
+}
+
+.card-sty {
+  height: 450px;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1584801096196-592feb269e31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+}
+
+.cont-color {
+  background-color: lavender;
+  padding: 10px;
+}
+
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.foot-bg {
+  background-color: #343a40;
+  color: white;
+  margin-bottom: 0;
+}
+
+/* 
+body {
+  background-color: #385170;
+}
+
+.bg-carousel {
+  background-color: #142d4c;
+}
+
+.whiteness {
+  color: #9fd3c7 !important;
+} */
+
+/* .nav-color {
+  background-color: rgb(49, 49, 95);
+} */
